@@ -8,6 +8,17 @@ h1 {
   text-align:center;
 }
 
+h2 {
+  text-align:center;
+  color:white;
+}
+
+p {
+ color:black;
+ font-size:20px;
+ font-family:Bold Script;
+}
+
 #history {
 	color:blue;
 	font-size:20px;
@@ -20,16 +31,24 @@ h1 {
 	background-color:crimson;
 }
 
+#history:hover {
+	color: green;
+}
+
 #astronomy {
 	color:blue;
 	font-size:20px;
 	position:absolute;
-	left:750px;
+	right:470px;
 	top:1px;
 	border:1px ridge #ccffff;
 	padding:3px;
 	text-align:center;
 	background-color:crimson;
+}
+
+#astronomy:hover {
+	color: green;
 }
 
 #main {
@@ -44,16 +63,24 @@ h1 {
 	background-color:crimson;
 }
 
+#main:hover {
+	color: green;
+}
+
 #physics {
 	color:blue;
 	font-size:20px;
 	position:absolute;
-	left:1000px;
+	right:250px;
 	top:1px;
 	border:1px ridge #ccffff;
 	padding:3px;
 	text-align:center;
 	background-color:crimson;
+}
+
+#physics:hover {
+	color:green;
 }
 
 #tinyPicture {
@@ -75,4 +102,35 @@ h1 {
 
 .card:hover {
 	border-color: red;
+}
+
+nav ul {
+	display:flex;
+	flex-direction: column;
+	list-style-type: none;
+	background-color:tomato;
+	border-style: solid;
+	border-color: MediumVioletRed;
+	border-width: 2px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+nav ul li {
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: yellow;
+}
+
+@media all and (min-width: 1300px) {
+	nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+	}
+}
+
+.nice {
+	color:red;
+	text-decoration:underline;
 }

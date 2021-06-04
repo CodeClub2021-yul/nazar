@@ -4,7 +4,7 @@ body {
 
 h1 {
   font-family:Arial;
-  color:blue;
+  color:red;
   text-align:center;
 }
 
@@ -28,7 +28,7 @@ p {
 }
 
 #history:hover {
-	color:red;
+	color:orange;
 }
 
 #astronomy {
@@ -45,7 +45,7 @@ p {
 }
 
 #astronomy:hover {
-	color:red;
+	color:orange;
 }
 
 #main {
@@ -62,7 +62,7 @@ p {
 }
 
 #main:hover {
-	color:red;
+	color:orange;
 }
 
 
@@ -80,20 +80,17 @@ p {
 }
 
 #physics:hover {
-	color:red;
+	color:orange;
 }
 
 ul {
-  position:absolute;
-  top:150px;
-  color:red;
-  font-size:20px;
+	color:red;
+	font-size: 20px;
 }
 
 
 .t {
-    text-align:center;
-
+   text-align: center;
 }
 
  #myCoolText {
@@ -104,11 +101,7 @@ img {
 	border:4px solid white;
 }
 
-img:hover {
-    border:4px solid blue;
-}
-
-.nice:hover {
+.nice {
 	color:red;
 	text-decoration:underline;
 }
@@ -165,4 +158,3 @@ nav ul li {
         justify-content: flex-end;
 	}
 }
-
