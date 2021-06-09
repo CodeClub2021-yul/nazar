@@ -6,6 +6,7 @@ h1 {
   font-family:Arial;
   color:red;
   text-align:center;
+  margin-top: 40px;
 }
 
 p {
@@ -88,6 +89,9 @@ ul {
 	font-size: 20px;
 }
 
+li:hover {
+	color:orange;
+}
 
 .t {
    text-align: center;

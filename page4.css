@@ -6,6 +6,7 @@ h1 {
   font-family:Arial;
   color:black;
   text-align:center;
+  margin-top: 40px;
 }
 
 h2 {
@@ -85,8 +86,6 @@ p {
 }
 
 nav ul {
-	display:flex;
-	flex-direction: column;
 	list-style-type: none;
 	background-color:tomato;
 	border-style: solid;

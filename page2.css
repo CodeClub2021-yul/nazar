@@ -6,6 +6,7 @@ h1 {
   font-family:Arial;
   color:white;
   text-align:center;
+  margin-top: 40px;
 }
 
 h2 {
@@ -105,8 +106,6 @@ p {
 }
 
 nav ul {
-	display:flex;
-	flex-direction: column;
 	list-style-type: none;
 	background-color:tomato;
 	border-style: solid;
@@ -121,6 +120,10 @@ nav ul li {
 	margin-left: 10px;
 	margin-right: 10px;
 	color: yellow;
+}
+
+li:hover {
+	color:orange;
 }
 
 @media all and (min-width: 1300px) {
